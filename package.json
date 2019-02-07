@@ -15,8 +15,9 @@
     "nuxt": "^2.3.4"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
     "autoprefixer": "^8.6.4",
-    "tailwindcss": "^0.7.0"
+    "nodemon": "^1.18.9",
+    "tailwindcss": "^0.7.0",
+    "tailwindcss-transition": "^1.0.5"
   }
 }
