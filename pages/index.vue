@@ -75,15 +75,16 @@
       <div class="container mb-12 md:mb-24">
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-5/6">
-            <div class="flex flex-wrap items-center md:-mx-5">
-              <div class="w-full md:w-1/3 md:px-5">
-                <h2 class="text-2xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">Show Your Stripes</h2>
+            <div class="flex flex-wrap items-center md:-mx-5 md:flex-row-reverse">
+              <div class="w-full md:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
+                <img src="https://via.placeholder.com/720x480/F6F6F6" alt="Product Image" class="w-full" />
+              </div>
+
+              <div class="w-full md:w-1/3 md:px-5 mb-5 md:mb-0">
+                <h2 class="text-5xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">Show Your Stripes</h2>
                 <p class="text-sm mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia quas aperiam provident, veritatis delectus. Harum itaque tempore labore? Quas cupiditate.</p>
 
                 <a href="#" class="text-black text-sm">Shop now</a>
-              </div>
-              <div class="w-full md:w-2/3 md:px-5">
-                <img src="https://via.placeholder.com/720x480/F6F6F6" alt="Product Image" class="w-full" />
               </div>
             </div>
           </div>
@@ -91,11 +92,11 @@
       </div>
 
       <div class="container">
-        <div class="flex flex-wrap items-center mb-12 md:mb-24">
-          <div class="w-auto md:w-3/5">
+        <div class="flex flex-wrap items-center mb-12 md:mb-24 justify-center">
+          <div class="w-auto md:w-3/5 container--bleed--no-pad mb-16 md:mb-0">
             <img src="https://via.placeholder.com/720x540/F6F6F6" alt="Product Image" class="w-full" />
           </div>
-          <div class="w-auto md:w-1/4 ml-auto">
+          <div class="w-4/5 md:w-1/4 md:ml-auto">
             <a href="#" class="m-product-teaser no-underline text-black hover:underline">
               <img src="https://via.placeholder.com/550x750/F6F6F6" alt="Product Image" class="w-full mb-2" />
               <span class="block text-black text-lg">Something</span>
@@ -111,12 +112,13 @@
       <div class="container mb-12 md:mb-24">
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-5/6">
-            <div class="flex flex-wrap items-center md:-mx-8">
-              <div class="w-full md:w-2/3 md:px-8">
+            <div class="flex flex-wrap items-center md:-mx-5">
+              <div class="w-full md:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
                 <img src="https://via.placeholder.com/720x480/F6F6F6" alt="Product Image" class="w-full" />
               </div>
-              <div class="w-full md:w-1/3 md:px-8">
-                <h2 class="text-2xl md:text-3xl lg:text-5xl mb-5 font-light">From day to night</h2>
+
+              <div class="w-full md:w-1/3 md:px-5 mb-5 md:mb-0">
+                <h2 class="text-5xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">From Day To Night</h2>
                 <p class="text-sm mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia quas aperiam provident, veritatis delectus. Harum itaque tempore labore? Quas cupiditate.</p>
 
                 <a href="#" class="text-black text-sm">Shop now</a>
@@ -127,35 +129,36 @@
       </div>
 
       <div class="container">
-        <div class="flex flex-wrap items-center mb-12 md:mb-24">
-          <div class="w-auto md:w-1/4">
+        <div class="flex flex-wrap items-center mb-12 md:mb-24 justify-center md:flex-row-reverse">
+          <div class="w-auto md:w-3/5 container--bleed--no-pad mb-16 md:mb-0 md:ml-auto">
+            <img src="https://via.placeholder.com/720x540/F6F6F6" alt="Product Image" class="w-full" />
+          </div>
+          <div class="w-4/5 md:w-1/4">
             <a href="#" class="m-product-teaser no-underline text-black hover:underline">
               <img src="https://via.placeholder.com/550x750/F6F6F6" alt="Product Image" class="w-full mb-2" />
               <span class="block text-black text-lg">Something</span>
               <span class="block text-grey-dark text-sm">310&euro;</span>
             </a>
           </div>
-          <div class="w-auto md:w-3/5 ml-auto">
-            <img src="https://via.placeholder.com/720x540/F6F6F6" alt="Product Image" class="w-full" />
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- Lamé Featured Teaser -->
+    <!-- Lame Featured Teaser -->
     <section class="mb-12 md:mb-24">
       <div class="container mb-12 md:mb-24">
         <div class="flex flex-wrap justify-center">
           <div class="w-full md:w-5/6">
-            <div class="flex flex-wrap items-center md:-mx-8">
-              <div class="w-full md:w-1/3 md:px-8">
-                <h2 class="text-2xl md:text-3xl lg:text-5xl mb-5 font-light">Lamé</h2>
+            <div class="flex flex-wrap items-center md:-mx-5 md:flex-row-reverse">
+              <div class="w-full md:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
+                <img src="https://via.placeholder.com/720x480/F6F6F6" alt="Product Image" class="w-full" />
+              </div>
+
+              <div class="w-full md:w-1/3 md:px-5 mb-5 md:mb-0">
+                <h2 class="text-5xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">Lame</h2>
                 <p class="text-sm mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia quas aperiam provident, veritatis delectus. Harum itaque tempore labore? Quas cupiditate.</p>
 
                 <a href="#" class="text-black text-sm">Shop now</a>
-              </div>
-              <div class="w-full md:w-2/3 md:px-8">
-                <img src="https://via.placeholder.com/720x480/F6F6F6" alt="Product Image" class="w-full" />
               </div>
             </div>
           </div>
@@ -163,11 +166,11 @@
       </div>
 
       <div class="container">
-        <div class="flex flex-wrap items-center mb-12 md:mb-24">
-          <div class="w-auto md:w-3/5">
+        <div class="flex flex-wrap items-center mb-12 md:mb-24 justify-center">
+          <div class="w-auto md:w-3/5 container--bleed--no-pad mb-16 md:mb-0">
             <img src="https://via.placeholder.com/720x540/F6F6F6" alt="Product Image" class="w-full" />
           </div>
-          <div class="w-auto md:w-1/4 ml-auto">
+          <div class="w-4/5 md:w-1/4 md:ml-auto">
             <a href="#" class="m-product-teaser no-underline text-black hover:underline">
               <img src="https://via.placeholder.com/550x750/F6F6F6" alt="Product Image" class="w-full mb-2" />
               <span class="block text-black text-lg">Something</span>
