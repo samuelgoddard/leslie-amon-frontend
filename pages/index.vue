@@ -182,7 +182,7 @@
     </section>
 
     <!-- Site Footer -->
-    <footer class="m-footer md:mb-8">
+    <footer class="m-footer sm:mb-8">
       <div class="container">
         <div class="flex flex-wrap items-center">
           <div class="w-full md:w-2/5 bg-grey-lightest py-4 sm:p-6 container--bleed mb-6 md:mb-0">
