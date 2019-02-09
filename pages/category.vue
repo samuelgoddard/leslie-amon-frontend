@@ -47,62 +47,62 @@
           { 
             id: 1,
             title: 'Maryline',
-            price: 310,
+            price: '310',
             image: 'images/stripes2@2x.png'
           },{ 
             id: 2,
             title: 'Sacha',
-            price: 310,
+            price: '310',
             image: 'images/day3@2x.png'
           },{ 
             id: 3,
             title: 'Tamini',
-            price: 310,
+            price: '310',
             image: 'images/lame3@2x.png'
           },{ 
             id: 4,
             title: 'Kirsten',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           },{ 
             id: 5,
             title: 'Amanda',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           },{ 
             id: 6,
             title: 'Amanda',
-            price: 310,
+            price: '310',
             image: 'images/lame3@2x.png'
           },{ 
             id: 7,
             title: 'Sarah',
-            price: 310,
+            price: '310',
             image: 'images/day3@2x.png'
           },{ 
             id: 8,
             title: 'Tami',
-            price: 310,
+            price: '310',
             image: 'images/stripes2@2x.png'
           },{ 
             id: 9,
             title: 'Maryline',
-            price: 310,
+            price: '310',
             image: 'images/lame3@2x.png'
           },{ 
             id: 10,
             title: 'Sacha',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           },{ 
             id: 11,
             title: 'Tamini',
-            price: 310,
+            price: '310',
             image: 'images/stripes2@2x.png'
           },{ 
             id: 12,
             title: 'Kirsten',
-            price: 310,
+            price: '310',
             image: 'images/day3@2x.png'
           }
         ]

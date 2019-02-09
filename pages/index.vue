@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero Banner -->
-    <section class="m-hero w-full flex items-center py-8 md:py-16 lg:py-32 mb-10 md:mb-12" style="background: url(/images/100@2x.png) no-repeat center center; background-size: cover;">
+    <section class="m-hero w-full flex items-center py-8 md:py-16 lg:py-32 mb-10 md:mb-12" style="background: url(/images/100@2x.png) no-repeat center center #ECADAD; background-size: cover;">
 
       <div class="container py-32">
         <div class="w-full text-center">
@@ -150,22 +150,22 @@
           { 
             id: 1,
             title: 'Maryline',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           },{ 
             id: 2,
             title: 'Sacha',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           },{ 
             id: 3,
             title: 'Tamini',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           },{ 
             id: 3,
             title: 'Kirsten',
-            price: 310,
+            price: '310',
             image: 'images/product1@2x.png'
           }
         ]
