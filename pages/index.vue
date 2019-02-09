@@ -129,7 +129,7 @@
             <img src="images/lame2@2x.png" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4 md:ml-auto">
-            <product-teaser title="Something" price="310" image="images/lame@2x.png" />
+            <product-teaser title="Something" price="310" image="images/lame3@2x.png" />
           </div>
         </div>
       </div>
