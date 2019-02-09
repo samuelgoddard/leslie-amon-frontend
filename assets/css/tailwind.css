@@ -6,21 +6,21 @@
   font-style: normal;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .container--bleed {
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    max-width: calc(100% + 4rem) !important;
-    width: calc(100% + 4rem) !important;
+    margin-left: calc(-1rem);
+    margin-right: calc(-1rem);
+    max-width: calc(100% + 2rem) !important;
+    width: calc(100% + 2rem) !important;
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
   .container--bleed--no-pad {
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    max-width: calc(100% + 4rem) !important;
-    width: calc(100% + 4rem) !important;
+    margin-left: calc(-1rem);
+    margin-right: calc(-1rem);
+    max-width: calc(100% + 2rem) !important;
+    width: calc(100% + 2rem) !important;
   }
 }
 /**

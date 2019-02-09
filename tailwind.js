@@ -171,6 +171,7 @@ module.exports = {
     'md': '768px',
     'lg': '992px',
     'xl': '1200px',
+    'xxl': '1440px',
   },
 
 
@@ -525,8 +526,9 @@ module.exports = {
     '16': '4rem',
     '24': '6rem',
     '32': '8rem',
-    '48': '12rem',
-    '64': '16rem',
+    '48': '14rem',
+    '64': '17rem',
+    '82': '22rem',
     'full': '100%',
     'screen': '100vh'
   },
@@ -864,8 +866,8 @@ module.exports = {
     borderCollapse: [],
     borderColors: ['responsive', 'hover', 'focus', 'group-hover'],
     borderRadius: ['responsive'],
-    borderStyle: ['responsive'],
-    borderWidths: ['responsive'],
+    borderStyle: ['responsive', 'hover'],
+    borderWidths: ['responsive', 'hover'],
     cursor: ['responsive'],
     display: ['responsive'],
     flexbox: ['responsive'],
@@ -884,7 +886,7 @@ module.exports = {
     opacity: ['responsive', 'hover'],
     outline: ['focus'],
     overflow: ['responsive'],
-    padding: ['responsive'],
+    padding: ['responsive', 'hover'],
     pointerEvents: ['responsive'],
     position: ['responsive'],
     resize: ['responsive'],
@@ -930,8 +932,19 @@ module.exports = {
         'slow': 'all 2s ease',
       }  
     }),    
+    function({ addUtilities }) {
+      const newUtilities = {
+        '.scale-1': {
+          transform: 'scale(1.1)',
+        },
+      }
+  
+      addUtilities(newUtilities, {
+        variants: ['responsive', 'hover', 'group-hover'],
+      })
+    },
   ],
-
+  
 
   /*
   |-----------------------------------------------------------------------------
