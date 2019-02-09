@@ -1,15 +1,29 @@
 <template>
   <div>
-    <!-- Hero Banner -->
-    <section class="m-hero w-full flex items-center py-8 md:py-16 lg:py-32 mb-10 md:mb-12" style="background: url(/images/100@2x.png) no-repeat center center; background-size: cover;">
+    <!-- Page Title -->
+    <section class="m-page-title w-full py-8 md:py-16 mb-10 md:mb-12">
+      <div class="container">
+        <div class="w-full">
+          <h1 class="text-black font-light text-3xl md:text-4xl lg:text-5xl">Swimwear</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="w-full">
+          <div class="m-category-switcher flex flex-wrap">
+            <a href="#" class="text-black mr-3 md:mr-5">All</a>
+            <a href="#" class="text-grey-dark no-underline hover:text-black hover:underline mr-3 md:mr-5">One Piece</a>
+            <a href="#" class="text-grey-dark no-underline hover:text-black hover:underline mr-3 md:mr-5">Bikini</a>
+            <a href="#" class="text-grey-dark no-underline hover:text-black hover:underline mr-3 md:mr-5">Night Swim</a>
+            <a href="#" class="text-grey-dark no-underline hover:text-black hover:underline mr-3 md:mr-5">Best Sellers</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <div class="container py-32">
-        <div class="w-full text-center">
-          <!-- Hero Banner -- CTA Link Text -->
-          <a href="#" class="group no-underline inline-block">
-            <h1 class="text-white font-light text-xl md:text-2xl lg:text-3xl">Spring Summer 2019</h1>
-            <span class="text-white inline-block p-2 border transition border-transparent group-hover:border-white mt-2">Shop the range</span>
-          </a>
+    <section class="m-category-grid">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <product-teaser title="Something" price="310" image="images/day3@2x.png" />
         </div>
       </div>
     </section>
@@ -17,8 +31,11 @@
 </template>
 
 <script>
+  import ProductTeaser from '~/components/ProductTeaser.vue';
+  
   export default {
     components: {
+      ProductTeaser,
     },
     data() {
       return {

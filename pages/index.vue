@@ -30,13 +30,7 @@
         <div class="flex flex-wrap -mx-4 lg:-mx-6">
           <div class="w-1/2 md:w-1/4 px-4 lg:px-6 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
             <!-- Latest Feed - Product Grid - Teaser -->
-            <a href="#" class="m-product-teaser block no-underline text-black hover:underline group">
-              <div class="overflow-hidden bg-grey-lightest mb-2">
-                <img :src="product.image" alt="Product Image" class="w-full mb-0 block group-hover:scale-1 transition relative" />
-              </div>
-              <span class="block text-black text-lg">{{ product.title }}</span>
-              <span class="block text-grey-dark text-sm">{{ product.price }}&euro;</span>
-            </a>
+            <product-teaser :title="product.title" :price="product.price" :image="product.image" />
           </div>
         </div>
       </div>
@@ -69,13 +63,7 @@
             <img src="images/stripes1@2x.png" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4 md:ml-auto">
-            <a href="#" class="m-product-teaser block no-underline text-black hover:underline group">
-              <div class="overflow-hidden bg-grey-lightest mb-2">
-                <img src="images/stripes2@2x.png" alt="Product Image" class="w-full mb-0 block group-hover:scale-1 transition relative" />
-              </div>
-              <span class="block text-black text-lg">Something</span>
-              <span class="block text-grey-dark text-sm">310&euro;</span>
-            </a>
+            <product-teaser title="Something" price="310" image="images/stripes2@2x.png" />
           </div>
         </div>
       </div>
@@ -108,13 +96,7 @@
             <img src="images/day2@2x.png" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4">
-            <a href="#" class="m-product-teaser block no-underline text-black hover:underline group">
-              <div class="overflow-hidden bg-grey-lightest mb-2">
-                <img src="images/day3@2x.png" alt="Product Image" class="w-full mb-0 block group-hover:scale-1 transition relative" />
-              </div>
-              <span class="block text-black text-lg">Something</span>
-              <span class="block text-grey-dark text-sm">310&euro;</span>
-            </a>
+            <product-teaser title="Something" price="310" image="images/day3@2x.png" />
           </div>
         </div>
       </div>
@@ -147,13 +129,7 @@
             <img src="images/lame2@2x.png" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4 md:ml-auto">
-            <a href="#" class="m-product-teaser block no-underline text-black hover:underline group">
-              <div class="overflow-hidden bg-grey-lightest mb-2">
-                <img src="images/lame3@2x.png" alt="Product Image" class="w-full mb-0 block group-hover:scale-1 transition relative" />
-              </div>
-              <span class="block text-black text-lg">Something</span>
-              <span class="block text-grey-dark text-sm">310&euro;</span>
-            </a>
+            <product-teaser title="Something" price="310" image="images/lame@2x.png" />
           </div>
         </div>
       </div>
@@ -162,8 +138,11 @@
 </template>
 
 <script>
+  import ProductTeaser from '~/components/ProductTeaser.vue';
+  
   export default {
     components: {
+      ProductTeaser,
     },
     data() {
       return {
