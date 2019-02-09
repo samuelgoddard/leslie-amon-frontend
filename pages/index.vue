@@ -6,10 +6,10 @@
       <div class="container py-32">
         <div class="w-full text-center">
           <!-- Hero Banner -- CTA Link Text -->
-          <a href="#" class="group no-underline inline-block">
+          <nuxt-link to="/category" class="group no-underline inline-block">
             <h1 class="text-white font-light text-xl md:text-2xl lg:text-3xl">Spring Summer 2019</h1>
             <span class="text-white inline-block p-2 border transition border-transparent group-hover:border-white mt-2">Shop the range</span>
-          </a>
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -27,8 +27,8 @@
           </div>
         </div>
         <!-- Latest Feed - Product Grid -->
-        <div class="flex flex-wrap -mx-4 lg:-mx-6">
-          <div class="w-1/2 md:w-1/4 px-4 lg:px-6 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
+        <div class="flex flex-wrap -mx-4 lg:-mx-7">
+          <div class="w-1/2 md:w-1/4 px-4 lg:px-7 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
             <!-- Latest Feed - Product Grid - Teaser -->
             <product-teaser :title="product.title" :price="product.price" :image="product.image" />
           </div>

@@ -9,10 +9,10 @@
         <div class="w-auto ml-8 hidden md:block">
           <!-- Main Menu -->
           <nav class="flex flex-wrap">
-            <a class="text-black no-underline hover:underline p-3 text-sm lg:text-base" href="#">Swimwear</a>
-            <a class="text-black no-underline hover:underline p-3 text-sm lg:text-base" href="#">Lookbook</a>
-            <a class="text-black no-underline hover:underline p-3 text-sm lg:text-base" href="#">Press</a>
-            <a class="text-black no-underline hover:underline p-3 text-sm lg:text-base" href="#">About</a>
+            <nuxt-link to="/category" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Swimwear</nuxt-link>
+            <nuxt-link to="/" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Lookbook</nuxt-link>
+            <nuxt-link to="/" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Press</nuxt-link>
+            <nuxt-link to="/" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">About</nuxt-link>
           </nav>
         </div>
         <div class="w-auto ml-auto">
