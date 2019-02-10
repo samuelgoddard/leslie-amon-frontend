@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+.m-header .active-exact {
+  text-decoration: underline !important;
+}
+
 @media only screen and (max-width: 768px) {
   .container--bleed {
     margin-left: calc(-1rem);

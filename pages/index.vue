@@ -6,7 +6,7 @@
       <div class="container py-32">
         <div class="w-full text-center">
           <!-- Hero Banner -- CTA Link Text -->
-          <nuxt-link to="/category" class="group no-underline inline-block">
+          <nuxt-link to="/products/" class="group no-underline inline-block">
             <h1 class="text-white font-light text-xl md:text-2xl lg:text-3xl">Spring Summer 2019</h1>
             <span class="text-white inline-block p-2 border transition border-transparent group-hover:border-white mt-2">Shop the range</span>
           </nuxt-link>
@@ -23,7 +23,7 @@
             <h2 class="font-light">New Styles</h2>
           </div>
           <div class="w-auto ml-auto">
-            <a href="#" class="text-black text-sm">View all</a>
+            <nuxt-link to="/products/" class="text-black text-sm hover:text-grey-dark">View all</nuxt-link>
           </div>
         </div>
         <!-- Latest Feed - Product Grid -->
@@ -50,7 +50,7 @@
                 <h2 class="text-5xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">Show Your Stripes</h2>
                 <p class="text-sm mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia quas aperiam provident, veritatis delectus. Harum itaque tempore labore? Quas cupiditate.</p>
 
-                <a href="#" class="text-black text-sm">Shop now</a>
+                <nuxt-link to="/products/" class="text-black text-sm hover:text-grey-dark">Shop now</nuxt-link>
               </div>
             </div>
           </div>
@@ -83,7 +83,7 @@
                 <h2 class="text-5xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">From day to night</h2>
                 <p class="text-sm mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia quas aperiam provident, veritatis delectus. Harum itaque tempore labore? Quas cupiditate.</p>
 
-                <a href="#" class="text-black text-sm">Shop now</a>
+                <nuxt-link to="/products/" class="text-black text-sm hover:text-grey-dark">Shop now</nuxt-link>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@
                 <h2 class="text-5xl md:text-3xl lg:text-5xl mb-5 font-light leading-tight">Lame</h2>
                 <p class="text-sm mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos officia quas aperiam provident, veritatis delectus. Harum itaque tempore labore? Quas cupiditate.</p>
 
-                <a href="#" class="text-black text-sm">Shop now</a>
+                <nuxt-link to="/products/" class="text-black text-sm hover:text-grey-dark">Shop now</nuxt-link>
               </div>
             </div>
           </div>
@@ -156,17 +156,17 @@
             id: 2,
             title: 'Sacha',
             price: '310',
-            image: 'images/product1@2x.png'
+            image: 'images/lame3@2x.png'
           },{ 
             id: 3,
             title: 'Tamini',
             price: '310',
-            image: 'images/product1@2x.png'
+            image: 'images/stripes2@2x.png'
           },{ 
-            id: 3,
+            id: 4,
             title: 'Kirsten',
             price: '310',
-            image: 'images/product1@2x.png'
+            image: 'images/day3@2x.png'
           }
         ]
       }
