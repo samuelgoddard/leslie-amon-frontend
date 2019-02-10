@@ -77,22 +77,22 @@
               <div class="hidden md:block w-fill md:w-1/5 md:px-5">
                 <div class="lg:pr-6">
                   <a href="#" class="no-underline block">
-                    <img src="/../images/product-single@2x.png" alt="Amanda" class="w-full block mb-6" />
+                    <img src="/../images/thumb1@2x.jpg" alt="Amanda" class="w-full block mb-6" />
                   </a>
                   <a href="#" class="no-underline block opacity-25 hover:opacity-100 transition">
-                    <img src="/../images/product-single@2x.png" alt="Amanda" class="w-full block mb-6" />
+                    <img src="/../images/thumb2@2x.jpg" alt="Amanda" class="w-full block mb-6" />
                   </a>
                   <a href="#" class="no-underline block opacity-25 hover:opacity-100 transition">
-                    <img src="/../images/product-single@2x.png" alt="Amanda" class="w-full block mb-6" />
+                    <img src="/../images/thumb3@2x.jpg" alt="Amanda" class="w-full block mb-6" />
                   </a>
                   <a href="#" class="no-underline block opacity-25 hover:opacity-100 transition">
-                    <img src="/../images/product-single@2x.png" alt="Amanda" class="w-full block mb-6" />
+                    <img src="/../images/thumb4@2x.jpg" alt="Amanda" class="w-full block mb-6" />
                   </a>
                 </div>
               </div>
               <div class="w-full md:w-4/5 md:px-5 container--bleed--no-pad mb-6">
                 <div class="lg:pr-12">
-                  <img src="/../images/product-single@2x.png" alt="Amanda" class="w-full block " />
+                  <img src="/../images/product-single@2x.jpg" alt="Amanda" class="w-full block " />
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@
           <div class="w-full lg:w-5/6">
             <div class="flex flex-wrap items-center md:-mx-5 md:flex-row-reverse">
               <div class="w-full md:w-3/5 lg:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
-                <img src="/../images/product-single2@2x.png" alt="Product Image" class="w-full block" />
+                <img src="/../images/product-single2@2x.jpg" alt="Product Image" class="w-full block" />
               </div>
 
               <div class="w-full md:w-2/5 lg:w-1/3 md:px-5 mb-5 md:mb-0">
@@ -216,22 +216,22 @@
             id: 1,
             title: 'Maryline',
             price: '310',
-            image: '/../images/product1@2x.png'
+            image: '/../images/product-teasers/1@2x.jpg'
           },{ 
             id: 2,
             title: 'Sacha',
             price: '310',
-            image: '/../images/lame3@2x.png'
+            image: '/../images/product-teasers/2@2x.jpg'
           },{ 
             id: 3,
             title: 'Tamini',
             price: '310',
-            image: '/../images/stripes2@2x.png'
+            image: '/../images/product-teasers/3@2x.jpg'
           },{ 
             id: 4,
             title: 'Kirsten',
             price: '310',
-            image: '/../images/day3@2x.png'
+            image: '/../images/product-teasers/4@2x.jpg'
           }
         ]
       }

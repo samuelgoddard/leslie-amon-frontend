@@ -39,43 +39,43 @@
             id: 1,
             title: 'Maryline',
             price: '310',
-            image: '/../images/lookbook1@2x.png',
+            image: '/../images/product-teasers/1@2x.jpg',
             first: true
           },{ 
             id: 2,
             title: 'Sacha',
             price: '310',
-            image: '/../images/lookbook2@2x.png'
+            image: '/../images/day1@2x.jpg'
           },{ 
             id: 3,
             title: 'Tamini',
             price: '310',
-            image: '/../images/lookbook1@2x.png'
+            image: '/../images/product-teasers/1@2x.jpg'
           },{ 
             id: 4,
             title: 'Kirsten',
             price: '310',
-            image: '/../images/lookbook2@2x.png'
+            image: '/../images/day1@2x.jpg'
           },{ 
             id: 5,
             title: 'Amanda',
             price: '310',
-            image: '/../images/lookbook1@2x.png'
+            image: '/../images/product-teasers/1@2x.jpg'
           },{ 
             id: 6,
             title: 'Amanda',
             price: '310',
-            image: '/../images/lookbook2@2x.png'
+            image: '/../images/day1@2x.jpg'
           },{ 
             id: 7,
             title: 'Sarah',
             price: '310',
-            image: '/../images/lookbook1@2x.png'
+            image: '/../images/product-teasers/1@2x.jpg'
           },{ 
             id: 8,
             title: 'Tami',
             price: '310',
-            image: '/../images/lookbook2@2x.png',
+            image: '/../images/day1@2x.jpg',
             last: true
           }
         ]

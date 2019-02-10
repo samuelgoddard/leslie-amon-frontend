@@ -6,7 +6,7 @@
           <div class="w-full">
             <div class="flex flex-wrap items-center md:-mx-5">
               <div class="w-full md:w-1/2 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
-                <img src="images/about@2x.png" alt="About Leslie Amon" class="w-full block" />
+                <img src="images/about@2x.jpg" alt="About Leslie Amon" class="w-full block" />
               </div>
 
               <div class="w-full md:w-1/2 md:px-5 mb-5 md:mb-0">

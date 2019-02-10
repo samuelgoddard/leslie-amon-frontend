@@ -43,7 +43,7 @@
           <div class="w-full md:w-5/6">
             <div class="flex flex-wrap items-center md:-mx-5 md:flex-row-reverse">
               <div class="w-full md:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
-                <img src="images/amanda@2x.png" alt="Product Image" class="w-full block" />
+                <img src="images/amanda@2x.jpg" alt="Product Image" class="w-full block" />
               </div>
 
               <div class="w-full md:w-1/3 md:px-5 mb-5 md:mb-0">
@@ -60,10 +60,10 @@
       <div class="container">
         <div class="flex flex-wrap items-center mb-12 md:mb-24 justify-center">
           <div class="w-auto md:w-3/5 container--bleed--no-pad mb-16 md:mb-0">
-            <img src="images/stripes1@2x.png" alt="Product Image" class="w-full block" />
+            <img src="images/stripes1@2x.jpg" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4 md:ml-auto">
-            <product-teaser title="Something" price="310" image="images/stripes2@2x.png" />
+            <product-teaser title="Something" price="310" image="images/stripes2@2x.jpg" />
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@
           <div class="w-full md:w-5/6">
             <div class="flex flex-wrap items-center md:-mx-5">
               <div class="w-full md:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
-                <img src="images/day1@2x.png" alt="Product Image" class="w-full block" />
+                <img src="images/day1@2x.jpg" alt="Product Image" class="w-full block" />
               </div>
 
               <div class="w-full md:w-1/3 md:px-5 mb-5 md:mb-0">
@@ -93,10 +93,10 @@
       <div class="container">
         <div class="flex flex-wrap items-center mb-12 md:mb-24 justify-center md:flex-row-reverse">
           <div class="w-auto md:w-3/5 container--bleed--no-pad mb-16 md:mb-0 md:ml-auto">
-            <img src="images/day2@2x.png" alt="Product Image" class="w-full block" />
+            <img src="images/day2@2x.jpg" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4">
-            <product-teaser title="Something" price="310" image="images/day3@2x.png" />
+            <product-teaser title="Something" price="310" image="images/day3@2x.jpg" />
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
           <div class="w-full md:w-5/6">
             <div class="flex flex-wrap items-center md:-mx-5 md:flex-row-reverse">
               <div class="w-full md:w-2/3 md:px-5 container--bleed--no-pad mb-12 md:mb-0">
-                <img src="images/lame1@2x.png" alt="Product Image" class="w-full block" />
+                <img src="images/lame1@2x.jpg" alt="Product Image" class="w-full block" />
               </div>
 
               <div class="w-full md:w-1/3 md:px-5 mb-5 md:mb-0">
@@ -126,10 +126,10 @@
       <div class="container">
         <div class="flex flex-wrap items-center mb-12 md:mb-24 justify-center">
           <div class="w-auto md:w-3/5 container--bleed--no-pad mb-16 md:mb-0">
-            <img src="images/lame2@2x.png" alt="Product Image" class="w-full block" />
+            <img src="images/lame2@2x.jpg" alt="Product Image" class="w-full block" />
           </div>
           <div class="w-4/5 md:w-1/4 md:ml-auto">
-            <product-teaser title="Something" price="310" image="images/lame3@2x.png" />
+            <product-teaser title="Something" price="310" image="images/lame3@2x.jpg" />
           </div>
         </div>
       </div>
@@ -151,22 +151,22 @@
             id: 1,
             title: 'Maryline',
             price: '310',
-            image: 'images/product1@2x.png'
+            image: 'images/product-teasers/1@2x.jpg'
           },{ 
             id: 2,
             title: 'Sacha',
             price: '310',
-            image: 'images/lame3@2x.png'
+            image: 'images/product-teasers/2@2x.jpg'
           },{ 
             id: 3,
             title: 'Tamini',
             price: '310',
-            image: 'images/stripes2@2x.png'
+            image: 'images/product-teasers/3@2x.jpg'
           },{ 
             id: 4,
             title: 'Kirsten',
             price: '310',
-            image: 'images/day3@2x.png'
+            image: 'images/product-teasers/4@2x.jpg'
           }
         ]
       }
