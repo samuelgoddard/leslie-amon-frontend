@@ -1,5 +1,74 @@
 <template>
   <div>
+    <div v-if="modalOpen" class="m-modal fixed pin-t pin-r pin-b pin-l w-full min-h-full z-10">
+      <div class="flex flex-wrap min-h-screen max-h-screen">
+        <div @click="toggle()" class="hidden md:block md:w-1/2 lg:w-3/5 min-h-screen max-h-screen bg-black opacity-75">
+        </div>
+        <div class="w-full md:w-1/2 lg:w-2/5 min-h-screen max-h-screen bg-white">
+          <div class="overflow-y-scroll w-full max-h-full block py-10 md:py-12 lg:py-16 px-6 md:px-12 lg:px-10">
+            <div class="container">
+              <div class="flex flex-wrap items-start">
+                <div class="w-4/5 mb-4 md:mb-6">
+                  <h2 class="font-thin text-2xl lg:text-3xl leading-tight">Delivery &amp; Returns</h2>
+                </div>
+                <div class="ml-auto text-right">
+                  <button @click="toggle()" class="text-center flex ml-auto p-2 xl:p-3">
+                    <svg viewPort="0 0 12 12" class="w-4 h-4 block" version="1.1"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <line x1="1" y1="14" 
+                        x2="14" y2="1" 
+                        stroke="black" 
+                        stroke-width="1"/>
+                      <line x1="1" y1="1" 
+                        x2="14" y2="14" 
+                        stroke="black" 
+                        stroke-width="1"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+
+              <h3 class="font-thin text-xl leading-tight mb-2">Switzerland</h3>
+              <ul class="pl-4 ml-0 text-sm mb-4">
+                <li>Priority Shipping, expect to deliver in 1-2 working days</li>
+                <li>Price : 10 euros</li>
+              </ul>
+
+              <h3 class="font-thin text-xl leading-tight mb-2">Europe</h3>
+              <ul class="pl-4 ml-0 text-sm mb-4 mb-4">
+                <li>Priority Shipping, expect to deliver in 2-5 working days</li>
+                <li>Price : 18 euros</li>
+              </ul>
+
+              <h3 class="font-thin text-xl leading-tight mb-2">Rest of the world</h3>
+              <ul class="pl-4 ml-0 text-sm mb-4 mb-4">
+                <li>Priority Shipping, expect to deliver in 3-7 working days
+                <li>Price : 23 euros
+                <li>Please consider the shipping address you provide, you should be attending <li>your address during normal business hours, as a signature may be required
+                <li>Order are dispatched within 2 business days upon receiving your order
+                <li>As soon as your order will be dispatched, you will receive your tracking number via email with an estimated arrival date</li>
+                <li>For more info please contact our customer service : <a class="text-black hover:text-grey-dark" href="mailto:info.leslieamon@gmail.com">info.leslieamon@gmail.com</a></li>
+              </ul>
+
+              <h3 class="font-thin text-xl leading-tight mb-2">Returns</h3>
+              <ul class="pl-4 ml-0 text-sm mb-4 mb-4">
+                <li>We offer a 7 day returns policy</li>
+                <li>We will gladly accept exchange on all items within 7 days upon reception</li>
+                <li>Return are only accepted if the swimsuit is unworn, unwashed
+                and if the sealed link and tags are still attached to the swimwear.</li>
+                <li>The item needs to be return with it's original velvet pouch</li>
+                <li>WE DONT OFFER EXCHANGE OR RETURN ON SALES PRODUCTS</li>
+                <li>Shipping costs for refund are the responsibility of the customer.</li>
+                <li>Please contact us at info.leslieamon@gmail.com to notify us,
+                let us know which model you whish to exchange.</li>
+                <li>Allow 3-5 days for processing upon reception
+                Send Returns to: Leslie Amon, 9 place du Molard, 1204 Geneve, Switzerland</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="m-product-overview mb-12 md:mb-24">
       <div class="container">
         <div class="flex flex-wrap items-center md:-mx-5">
@@ -74,9 +143,9 @@
 
               <a href="#" class="w-full block bg-black text-white border border-black text-center no-underline py-3 px-6 mb-10">Add to cart</a>
 
-              <a href="#" class="text-black hover:text-grey-dark text-sm mr-5">Size guide</a>
-              <a href="#" class="text-black hover:text-grey-dark text-sm mr-5">Delivery &amp; returns</a>
-              <a href="#" class="text-black hover:text-grey-dark text-sm mr-5">Garment care</a>
+              <button @click="toggle()" class="text-black hover:text-grey-dark text-sm mr-5">Size guide</button>
+              <button @click="toggle()" class="text-black hover:text-grey-dark text-sm mr-5">Delivery &amp; returns</button>
+              <button @click="toggle()" class="text-black hover:text-grey-dark text-sm mr-5">Garment care</button>
             </div>
           </div>
         </div>
@@ -140,6 +209,7 @@
     },
     data() {
       return {
+        modalOpen: false,
         fakeActive: 'active-exact',
         products: [
           { 
@@ -164,6 +234,11 @@
             image: '/../images/day3@2x.png'
           }
         ]
+      }
+    },
+    methods: {
+      toggle: function(){
+        this.modalOpen = !this.modalOpen
       }
     }
   }

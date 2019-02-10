@@ -20,7 +20,7 @@
         <!-- Latest Feed - Title + Link -->
         <div class="flex flex-wrap items-end mb-4 md:mb-6">
           <div class="w-auto">
-            <h2 class="font-light">New Styles</h2>
+            <h2 class="font-light leading-tight">New Styles</h2>
           </div>
           <div class="w-auto ml-auto">
             <nuxt-link to="/products/" class="text-black text-sm hover:text-grey-dark">View all</nuxt-link>

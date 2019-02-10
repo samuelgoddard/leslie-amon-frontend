@@ -10,7 +10,7 @@
           <!-- Main Menu -->
           <nav class="flex flex-wrap">
             <nuxt-link to="/products" class="text-black no-underline hover:underline p-3 text-sm lg:text-base" >Swimwear</nuxt-link>
-            <nuxt-link to="/404" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Lookbook</nuxt-link>
+            <nuxt-link to="/lookbook" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Lookbook</nuxt-link>
             <nuxt-link to="/404" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Press</nuxt-link>
             <nuxt-link to="/about" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">About</nuxt-link>
           </nav>

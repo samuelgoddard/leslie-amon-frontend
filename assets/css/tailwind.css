@@ -27,6 +27,11 @@
     width: calc(100% + 2rem) !important;
   }
 }
+
+.m-lookbook-carousel {
+  overflow-x: scroll;
+}
+
 /**
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
