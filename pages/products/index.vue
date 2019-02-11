@@ -23,8 +23,8 @@
     <section class="m-category-grid">
       <div class="container">
         <!-- Category Feed -->
-        <div class="flex flex-wrap -mx-4 lg:-mx-7">
-          <div class="w-1/2 md:w-1/4 px-4 lg:px-7 mb-5 md:mb-8 lg:mb-12 xl:mb-16" v-for="product in products" v-bind:key="product.id">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-1/2 md:w-1/4 px-4 mb-5 md:mb-8 lg:mb-12 xl:mb-16" v-for="product in products" v-bind:key="product.id">
             <!-- Latest Feed - Product Grid - Teaser -->
             <product-teaser :title="product.title" :price="product.price" :image="product.image" />
           </div>

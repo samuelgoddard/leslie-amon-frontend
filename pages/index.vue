@@ -27,8 +27,8 @@
           </div>
         </div>
         <!-- Latest Feed - Product Grid -->
-        <div class="flex flex-wrap -mx-4 lg:-mx-7">
-          <div class="w-1/2 md:w-1/4 px-4 lg:px-7 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-1/2 md:w-1/4 px-4 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
             <!-- Latest Feed - Product Grid - Teaser -->
             <product-teaser :title="product.title" :price="product.price" :image="product.image" />
           </div>

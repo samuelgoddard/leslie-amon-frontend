@@ -71,8 +71,8 @@
     </div>
     <section class="m-product-overview mb-12 md:mb-24">
       <div class="container">
-        <div class="flex flex-wrap items-center md:-mx-5">
-          <div class="w-full md:w-3/5 md:px-5">
+        <div class="flex flex-wrap items-center md:-mx-4">
+          <div class="w-full md:w-3/5 md:px-4">
             <div class="flex flex-wrap items-center md:-mx-5">
               <div class="hidden md:block w-fill md:w-1/5 md:px-5">
                 <div class="lg:pr-6">
@@ -188,8 +188,8 @@
           </div>
         </div>
         <!-- Latest Feed - Product Grid -->
-        <div class="flex flex-wrap -mx-4 lg:-mx-7">
-          <div class="w-1/2 md:w-1/4 px-4 lg:px-7 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-1/2 md:w-1/4 px-4 mb-5 md:mb-0" v-for="product in products" v-bind:key="product.id">
             <!-- Latest Feed - Product Grid - Teaser -->
             <product-teaser :title="product.title" :price="product.price" :image="product.image" />
           </div>

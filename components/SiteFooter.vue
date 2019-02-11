@@ -15,25 +15,25 @@
         <a href="#" class="text-sm text-black ml-2">Facebook</a>
       </div> -->
 
-      <div class="flex flex-wrap md:-mx-8">
-        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Newsletter</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Instagram</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Facebook</a>
+      <div class="flex flex-wrap">
+        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0">
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Newsletter</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Instagram</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Facebook</a>
         </div>
-        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Contact</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Stockists</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Press</a>
+        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0">
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Contact</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Stockists</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Press</a>
         </div>
-        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Taxes &amp; Duties</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Shipping Information</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Returns</a>
+        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0">
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Taxes &amp; Duties</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Shipping Information</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Returns</a>
         </div>
-        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Terms &amp; Conditions</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Privacy</a>
+        <div class="w-1/2 md:w-1/4 mb-12 md:mb-0">
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Terms &amp; Conditions</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4 pr-2">Privacy</a>
         </div>
       </div>
 
