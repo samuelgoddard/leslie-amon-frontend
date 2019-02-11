@@ -1,14 +1,14 @@
 <template>
   <div>
     <!-- Page Title -->
-    <section class="m-page-title w-full pt-8 pb-2 md:pt-12 md:pt-6 mb-4">
+    <section class="m-page-title w-full py-8 md:py-12">
       <div class="container">
         <div class="flex flex-wrap items-end">
           <div class="w-auto">
             <h1 class="text-black font-light text-3xl md:text-4xl lg:text-5xl leading-tight">High Summer 2019</h1>
           </div>
           <div class="w-auto ml-auto">
-            <nuxt-link to="/products/" class="text-black text-sm hover:text-grey-dark">Pre-order</nuxt-link>
+            <a href="#" class="text-black hover:text-grey-dark">Preorder</a>
           </div>
         </div>
       </div>

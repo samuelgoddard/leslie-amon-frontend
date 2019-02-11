@@ -4,7 +4,7 @@
     <section class="m-page-title w-full py-8 md:py-12 mb-4">
       <div class="container">
         <div class="w-full">
-          <h1 class="text-black font-light text-3xl md:text-4xl lg:text-5xl mb-3">Swimwear</h1>
+          <h1 class="text-black font-light text-3xl md:text-4xl lg:text-5xl mb-3 leading-tight">Swimwear</h1>
         </div>
       </div>
       <div class="container">

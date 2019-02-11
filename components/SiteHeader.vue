@@ -13,6 +13,7 @@
             <nuxt-link to="/lookbook" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Lookbook</nuxt-link>
             <nuxt-link to="/404" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Press</nuxt-link>
             <nuxt-link to="/about" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">About</nuxt-link>
+            <nuxt-link to="/stockists" class="text-black no-underline hover:underline p-3 text-sm lg:text-base">Stockists</nuxt-link>
           </nav>
         </div>
         <div class="w-auto ml-auto">
