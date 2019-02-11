@@ -14,7 +14,7 @@
       <div class="container mb-12 md:mb-24">
         <div class="flex flex-wrap md:-mx-4">
           <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 md:px-4" v-for="stockist in stockists" :key="stockist.id">
-            <div :class="stockist.classes">
+            <div :class="stockist.classes" class="md:pr-6 lg:pr-8 xl:pr-12">
               <h2 class="font-thin text-xl md:text-2xl leading-tight mb-3">{{ stockist.title }}</h2>
 
               <p class="text-sm mb-3">{{ stockist.address }}</p>
