@@ -17,23 +17,23 @@
 
       <div class="flex flex-wrap md:-mx-8">
         <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Newsletter</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Instagram</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Facebook</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Newsletter</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Instagram</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Facebook</a>
         </div>
         <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Contact</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Stockists</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Press</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Contact</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Stockists</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Press</a>
         </div>
         <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Taxes &amp; Duties</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Shipping Information</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Returns</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Taxes &amp; Duties</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Shipping Information</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Returns</a>
         </div>
         <div class="w-1/2 md:w-1/4 mb-12 md:mb-0 md:px-8">
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Terms &amp; Conditions</a>
-          <a href="#" class="block text-black text-sm no-underline hover:underline mb-4">Privacy</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Terms &amp; Conditions</a>
+          <a href="#" class="block text-black text-sm no-underline hover:underline mb-3 md:mb-4">Privacy</a>
         </div>
       </div>
 
